@@ -16,7 +16,9 @@ Run it and send messages with numbers to the example queue.
 ```sbt run ```
 
 Negative numbers will be retried 3 times then archived.
+
 Numbers above 10 will be handled the first time
+
 Numbers between 0 and 10 will randomly be retried or handled,
 
 
