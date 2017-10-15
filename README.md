@@ -15,6 +15,8 @@ Run it and send messages with numbers to the example queue.
 
 ```sbt run ```
 
+It creates the queues example, example.retry and example.archive
+
 Negative numbers will be retried 3 times then archived.
 
 Numbers above 10 will be handled the first time
